@@ -1,0 +1,27 @@
+HypedSucker
+-----------
+
+This app is a small utility to ease download of songs which are available 
+on hypem.com . Its main purpose is to receive an url from a song and its 
+title and artist information. After receiving it, it suggests a proper 
+filename and provides the user with an interface to change the name and 
+to download the file. Really not fancy at all, but really useful (from 
+my perspective.)
+
+---
+
+The app is supposed to be used in conjunction with a small Google Chrome 
+extension. The extension adds a download link to each song on a page. 
+This link consists of the link to the mp3 file, the artist and title of 
+the song, and the cookie auth token, to take over a valid user session. 
+The link uses a unique scheme: hypedsucker:// which is registered by our 
+app. So whenever you are on hypem.com and click on a link, HypedSucker is 
+launched and allows you to download the file.
+
+---
+
+PLEASE NOTE: This app is not supposed for download tons of files from 
+hypem.com . Most of the music is available from the linked websites. But 
+sometimes the sites go offline, reach their bandwidth limit and so on. 
+In these cases it is really helpful to retrieve the file from hypem's 
+database itself. So: DO NOT ABUSE IT!
